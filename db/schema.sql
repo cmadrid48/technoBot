@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS technoBot_db;
+CREATE DATABASE technoBot_db;
