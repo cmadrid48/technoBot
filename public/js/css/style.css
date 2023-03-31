@@ -1,0 +1,319 @@
+:root {
+  --background: #231f20;
+  --peach: #f2887e;
+  --white: #ffffff;
+}
+
+header {
+  background-color: var(--peach);
+  color: var(--background);
+}
+
+#title {
+  font-family: "DM Serif Display", serif;
+  font-size: 2rem;
+  padding: 40px 0px 40px 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+nav {
+  text-decoration: none;
+}
+
+nav ul {
+  border-bottom: 1px solid var(--background);
+  display: flex;
+  font-family: "Quattrocento", serif;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--white);
+}
+
+.nav-link:active {
+  cursor: wait;
+}
+
+.blog-post {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.blog-post a {
+  text-decoration: none;
+}
+
+.blog-post h3 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  color: var(--background);
+  font-family: "Quattrocento", serif;
+  font-size: 1.5rem;
+  padding: 10px 0px;
+}
+
+h4 {
+  color: var(--background);
+  font-family: "Quattrocento", serif;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+.login {
+  margin-top: 50px;
+}
+
+.login-form,
+.signup-form {
+  background: var(--peach);
+  border-radius: 10px;
+  color: var(--background);
+  height: 550px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 300px;
+}
+
+h2 {
+  color: var(--background);
+  font-family: "DM Serif Display", serif;
+  font-size: 2rem;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.login-form input,
+.signup-form input {
+  margin: auto;
+  width: 80%;
+}
+
+.form-group {
+  font-family: "Quattrocento", serif;
+}
+
+.form-group label {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#create-account {
+  padding: 15px 0px 15px 0px;
+}
+
+#create-account-btn,
+#sign-in-btn {
+  text-decoration: none;
+}
+
+.leave-comment {
+  font-family: "Noto Serif Display", serif;
+  color: var(--color);
+  font-size: 1.1rem;
+}
+
+.btn-custom {
+  background-color: var(--white);
+  border: 1px solid var(--background);
+  color: var(--background);
+  font-family: "Quattrocento", serif;
+  margin-bottom: 10px;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active {
+  background-color: var(--background);
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+.btn-custom:active {
+  cursor: wait;
+}
+
+#create-account-btn:hover,
+#create-account-btn:focus,
+#create-account-btn:active,
+#sign-in-btn:hover,
+#sign-in-btn:focus,
+#sign-in-btn:active {
+  color: var(--white);
+}
+
+#create-account-btn:active,
+#sign-in-btn:active {
+  cursor: wait;
+}
+
+#invalid {
+  color: var(--white);
+  font-family: "Quattrocento", serif;
+  font-size: 1rem;
+}
+
+.dashboard h3 {
+  display: block;
+  margin: auto;
+  padding: none;
+  text-align: center;
+}
+
+.dashboard-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.light {
+  background-color: rgb(198, 198, 198);
+  color: rgb(67, 55, 15);
+}
+
+.light:hover {
+  background-color: rgb(221, 221, 221);
+  color: rgb(67, 55, 15);
+}
+
+p {
+  padding: 5px 0px;
+  line-height: 1.8rem;
+  font-size: 1.1rem;
+  font-family: "Quattrocento", serif;
+}
+
+.blog-post-content {
+  max-width: 750px;
+  margin: auto;
+}
+
+.wide-btn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container-2 {
+  padding-bottom: 30px;
+}
+
+#container-3 {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.content-id,
+.title-id,
+.newPostTitle,
+.newPostContent {
+  font-size: 32px;
+}
+
+.leave-comment,
+#comment {
+  font-family: "Quattrocento", serif;
+}
+
+.leave-comment {
+  margin-top: -15px;
+}
+
+#comment {
+  margin-top: 30px;
+}
+
+#leave-comment {
+  min-width: 600px;
+}
+
+.comment {
+  border-bottom: 1px solid var(--light-gray);
+  padding-top: 20px;
+  /* margin: 1px 0px; */
+}
+
+.comment p {
+  color: var(--medium-gray);
+}
+
+.comments {
+  padding-bottom: 30px;
+}
+
+.dashboard-post {
+  padding: 30px;
+  margin: 10px auto;
+  border: 1px solid var(--light-gray);
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+.dashboard-post:hover {
+  border: 1px solid var(--color);
+}
+
+.new-post-btn {
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.hide {
+  position: absolute;
+  display: none;
+}
+
+@media screen and (min-width: 720px) {
+  #title {
+    letter-spacing: 1.4rem;
+    font-size: 4rem;
+  }
+
+  nav ul {
+    justify-content: flex-start;
+  }
+
+  .nav-link {
+    padding-right: 30px;
+  }
+
+  .new-post {
+    margin-top: 10vh;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #leave-comment {
+    min-width: 300px;
+  }
+
+  #container-3 {
+    max-width: 300px;
+    margin: auto;
+    padding-top: 75px;
+  }
+}
