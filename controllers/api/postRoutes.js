@@ -47,6 +47,12 @@ router.delete("/:id", async (req, res) => {
         id: req.params.id,
       },
     });
+
+    if (!postData) {
+      res.status(404).json({ message: "no post found with that id" });
+      return;
+    }
+
     res.status(200).json(postData);
   } catch (err) {
     console.log(err);
