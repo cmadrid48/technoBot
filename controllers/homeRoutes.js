@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const { reset } = require("nodemon");
 const { User, Comment, Post } = require("../models");
-const withAuth = require("../utils");
+const withAuth = require("../utils/auth");
 
 //homep
 

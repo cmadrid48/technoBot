@@ -21,11 +21,6 @@ const commentOnPost = async (event) => {
     });
     document.location.reload();
     console.log(response);
-    if (response.ok) {
-      // document.location.reload();
-    } else {
-      // document.location.reload();
-    }
   }
 };
 
